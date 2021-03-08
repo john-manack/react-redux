@@ -1,9 +1,13 @@
-import Output from './Output';
+import Output from '../containers/OutputContainer';
+import Increment from '../containers/IncrementContainer';
+import Decrement from '../containers/DecrementContainer';
 
-const Counter = (props) => (
+const Counter = () => (
     <>
         <h1>Here's an AMAZANG Counter App!!!</h1>
-        <Output amount={42}/>
+        <Output />
+        <Increment />
+        <Decrement />
     </>
 )
 
