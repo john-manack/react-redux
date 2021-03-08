@@ -1,11 +1,13 @@
 import './App.css';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React-Redux</h1>
+        <h4>React-Redux</h4>
       </header>
+      <Counter/>
     </div>
   );
 }
